@@ -1,0 +1,43 @@
+I - Workbox
+ 
+1) liste des fonctionnalités offertes
+La Workbox permet:
+    - d'implémenter des stratégies de mise en cache en masquant toute la complexité d'écriture du code asynchrone
+    - générer les fichiers de configuration
+
+
+2) Méthodes de cache et utilisations possibles
+    - workbox-build   --->   Il permet de générer votre fichier service worker ou un fichier manifest.
+    - workbox-routing   --->   Ce module permet d’appliquer différentes stratégies sur des sous ensembles de requêtes.
+    - workbox-runtime-caching   --->   Cette librairie implémente les différentes stratégies de cache. (networkFirst, cacheFirst, cacheOnly, networkOnly, staleWhileRevalidate)
+    - workbox-cache-expiration   --->   Permet d'imiter la taille du cache en limitant le nombre de requêtes pouvant être "cachée et de pouvoir ajouter une date d'expiration
+    - workbox-background-sync   --->   Cette librairie va vous aider à empiler les demandes dans une queue et ces demandes seront exécutées quand le réseau sera à nouveau disponible.
+    - workbox-cacheable-response   --->   Cette librairie vous permet de paramétrer finement quels objets doivent être mis en cache ou non.
+    - workbox-broadcast-cache-update   --->   Permet d’effectuer une action quand une entrée dans le cache a été mise à jour.
+
+Utilisations possibles pour la génération des manifest ou alors les systemes de caches dans nos applications.
+
+
+3) uses cases à intégrer dans le projet doctoliberal
+Gérer les dernières recherches qu'un médecin à faites telles que l'adresse d'une personne au cas ou il n'est plus accès à l'application.
+
+
+
+
+
+II - Page d'incitation à l'installation de PWA
+ 
+1 ) Créer un composant (React / Vue / angular / HTML+CSS) pour inciter et surtout guider un utilisateur à installer la PWA
+    - navigateur nécessaire
+    - compatibilité du device
+    - capacités supplémentaires, etc...
+
+
+
+
+
+
+2 ) Expliquer en quoi il serait interessant de mettre en place une telle page
+
+Il serait interessant de mettre en place une page telle que celle-ci pour toutes personne n'étant pas à l'aise avec les technologies
+actuelles.
